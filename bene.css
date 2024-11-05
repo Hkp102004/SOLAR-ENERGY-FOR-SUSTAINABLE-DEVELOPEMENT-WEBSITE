@@ -1,0 +1,133 @@
+body{
+    background-image: url('/Image/bacjk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 900px;
+    margin-left: 470px;
+    backdrop-filter: blur(10px);
+    text-shadow: 0 0 10px white;
+    font-size: 26px;
+}
+.body{
+    width: 1150px;
+    font-size: 23px;
+    margin-top: 100px;
+    color: white;
+}
+.body p{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    text-shadow: 0 0 6px black;
+}
+.first{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+}
+.first:hover{
+    padding: 30px;
+    box-shadow: 0 0 100px white;
+}
+.second{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+}
+.second:hover{
+    padding: 30px;
+    box-shadow: 0 0 100px white;
+}
+.third{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+}
+.third:hover{
+    padding: 30px;
+    box-shadow: 0 0 100px;
+}
+.fourth{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+}
+.fourth:hover{
+    padding: 30px;
+    box-shadow: 0 0 100px;
+}
+.fifth{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+}
+.fifth:hover{
+    padding: 30px;
+    box-shadow: 0 0 100px;
+}
+.sixth{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+}
+.sixth:hover{
+    padding: 30px;
+    box-shadow: 0 0 100px;
+}
+.seventh{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(20px);
+    transition: all 0.5s ease;
+}
+.seventh:hover{
+    padding: 30px;
+    box-shadow: 0 0 100px;
+}
+.one{
+    height: 350px;
+    position: absolute;
+    top: 36%;
+    left: 82%;
+    transform: translate(-50%,50%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px green;
+}
+.two{
+    height: 415px;
+    position: absolute;
+    top: 96%;
+    left: 82%;
+    transform: translate(-50%,50%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightblue;
+}

@@ -1,0 +1,70 @@
+body{
+    background-image: url('/Image/power.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.heading{
+    text-align: center;
+    border: 1px solid rgb(221, 175, 100);
+    border-radius: 8px;
+    width: 1100px;
+    height: 250 px;
+    margin-left: 380px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(221, 175, 100);
+}
+.heading h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-shadow: 0 0 4px white;
+}
+.heading a{
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.3s ease;
+}
+.heading a:hover{
+    padding : 25px;
+    color: lightblue;
+    text-shadow: 0 0 10px lightblue;
+}
+.intro{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 1100px; 
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.intro:hover{
+    padding: 30px;
+    box-shadow: 0 0 30px white;
+}
+.intro h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-shadow: 0 0 4px white;
+}
+.intro p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    color: white;
+}
+img{
+    position: absolute;
+    top: 40%;
+    left: 82%;
+    transform: translate(-50%,50%);
+    height: 350px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 20px lightblue;
+    transition: all 0.5s ease;
+}
+img:hover{
+    box-shadow: 0 0 50px lightblue;
+}
